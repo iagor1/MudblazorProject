@@ -1,0 +1,52 @@
+﻿@page "/eventos"
+@inject HttpClient Http
+@using AppCore.Model
+
+@if (eventos == null)
+{
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+
+<PageTitle>Index</PageTitle>
+
+<MudText Typo="Typo.h3" GutterBottom="true">Olá!</MudText>
+<MudText Class="mb-8">Bem vindo aos Eventos!</MudText>
+<MudGrid>
+@foreach(var itens in eventos){
+
+    <MudItem sm="12" md="6" lg="4">
+        <MudCard>
+    <MudCardHeader>
+        <CardHeaderContent>
+            <MudText Typo="Typo.h6">@itens.Name</MudText>
+        </CardHeaderContent>
+        <CardHeaderActions>
+            <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+        </CardHeaderActions>
+    </MudCardHeader>
+    <MudCardContent>
+        <MudText>@itens.Description</MudText>
+        <MudText Typo="Typo.body2">@itens.Situation</MudText>
+        <MudText Typo="Typo.body2">@itens.Start</MudText>
+        <MudText Typo="Typo.body2">@itens.End</MudText>
+    </MudCardContent>
+    <MudCardActions>
+        <MudButton Variant="Variant.Text" Color="Color.Primary">Read More</MudButton>
+    </MudCardActions>
+</MudCard>
+    </MudItem>
+
+}
+</MudGrid>
+}
+@code {
+    private Event[]? eventos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        eventos = await Http.GetFromJsonAsync<Event[]>("Events");
+    }
+
+}
