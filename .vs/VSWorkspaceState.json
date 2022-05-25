@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\WebProva",
-    "\\WebProva\\WebProva"
+    "\\WebProva\\WebProva",
+    "\\WebProva\\WebProva\\Pages",
+    "\\WebProva\\WebProva\\Pages\\Eventos"
   ],
-  "SelectedNode": "\\WebProva\\.gitigonore",
+  "SelectedNode": "\\WebProva\\WebProva\\Pages\\Eventos\\Index.razor",
   "PreviewInSolutionExplorer": false
 }
