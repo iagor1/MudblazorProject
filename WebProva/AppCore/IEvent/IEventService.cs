@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AppCore.Model;
 
 namespace AppCore.IEvent
 {
-    internal class IEvent
+    public class IEventService
     {
+
+
+        public interface IEvent
+        {
+            List<Event> GetCustomers();
+            Customer GetCustomerById(int id);
+            void SaveCustomer(Customer customer);
+            void DeleteCustomer(int id);
+        }
+
+
     }
 }
