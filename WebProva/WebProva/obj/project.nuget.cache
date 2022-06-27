@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/q1U3M/sWMVdvTqhER0rGr+FioiwHSgz7QD5NkE+uuTGspj6V1/j3nZaxpy/GDLsCd6J5gvGvOBEwKTDha4wkA==",
+  "dgSpecHash": "61eYVgbSi7O6ROyxPsCS8Ora8o5r7pzmIo31dj+h9OLRqZy637ge+Cm7F9tKWDHAbgE79nr8DKxtQiE39v6edg==",
   "success": true,
   "projectFilePath": "C:\\Users\\iagor\\Desktop\\provaweb\\WebProva\\WebProva\\WebProva.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,7 @@
     "C:\\Users\\iagor\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\iagor\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\iagor\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\iagor\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.3.nupkg.sha512"
+    "C:\\Users\\iagor\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.5.nupkg.sha512"
   ],
   "logs": []
 }
